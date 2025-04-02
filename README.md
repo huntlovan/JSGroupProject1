@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EmployeeHub
 
-## Getting Started
+This is an application that allows people to see who they work with built in Next.js. 
+Fork, Clone this repo, complete it, and make a PR.  Turn in the link to your PR.
 
-First, run the development server:
+## Fork and Clone
+
+One of your team members will need to us the GitHub web interface to fork this Repo. 
+Then all team members will clone that new repo your local machine.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your_username/employeehub.git
+cd employeehub
+code .
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Add your team members as a collaborator on the GitHub repository using the GitHub web interface.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Collaborating
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You will all need to work together to complete this project.
+Make sure to communicate effectively and use version control to keep track of changes.
+All changes should be tracked using Git.
+It is up to you if you would like to use a branch for each feature.
+I recommend good communication to avoid merge conflicts.
 
-## Learn More
+## Requirements
 
-To learn more about Next.js, take a look at the following resources:
+- Use Next.js
+- Use Git to collaborate
+- Read in `employees.json` file to display all employees
+- Add a search/filter feature based on employee name.
+  - This should reduce the number of employees displayed.
+  - This should **NOT** be case-insensitive.
+- The website should be responsive and mobile-friendly.
+- The website should be look and feel like a modern website.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## UI Example
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Best project submitted will be displayed here as future groups UI example.
+For now use this UI mockup.
 
-## Deploy on Vercel
+```
++------------------------------------------+
+|               HEADER Component           |
+|  EmployeeHub - Connect with Your Team    |
++------------------------------------------+
+|  🔍 Search...         [Name ▼]     |
++------------------------------------------+
+|              CARD GRID`                  |
+|  [Card]     [Card]     [Card]     [Card] |
+|  [Card]     [Card]     [Card]     [Card] |
++------------------------------------------+
+|               FOOTER Component           |
++------------------------------------------+
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Employee Card Design
+```
++------------------------+
+|     ⭕ Photo           |
+|                       |
+|   Sarah Johnson       |
+|   Senior Developer    |
+|   Engineering         |
+|                       |
+|   Bio: Full-stack... |
+|                       |
+|   ✉️ email@emp...     |
++------------------------+
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![UI Example](instuctions/UI.webp)
+![UI Filter](instuctions/UIFilter.webp)
