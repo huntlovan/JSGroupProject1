@@ -1,0 +1,12 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Michael Scott",
+      "bio": "I became a salesman because of people. I love making friends. But then I was promoted to manager at a very young age. And I still try to be a friend first. But, you know... when you're very successful, your co-workers look at you differently.",
+      "email": "michael.s@employeehub.com",
+      "role": "Manager",
+      "photoUrl": "https://static.wikia.nocookie.net/theoffice/images/f/f4/Steve_Carell.png/revision/latest?cb=20200413231752"
+    }
+  ]
+}
